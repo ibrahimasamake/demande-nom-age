@@ -10,7 +10,7 @@ def inputUserInfos():   #function
         try:
             ageInt = int(age)
         except ValueError:
-            print("vous devez entre un nombre")
+            print("Erreur vous devez entre un nombre")
             age = input("entre votrer age")
         break
     info = (f"Bonjour,{nom}, tu as {age} ans et bienvenue à ODC.")
